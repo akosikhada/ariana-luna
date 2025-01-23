@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-time-picker .react-time-picker__wrapper {
+  border: none !important;
+  box-shadow: none !important;
+}

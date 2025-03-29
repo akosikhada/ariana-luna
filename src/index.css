@@ -6,3 +6,34 @@
   border: none !important;
   box-shadow: none !important;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.animate-float {
+  animation: float infinite ease-in-out;
+}
+
+/* Dark theme adjustments */
+@layer components {
+  .dark-card {
+    @apply bg-gray-800/70 backdrop-blur-sm border border-gray-700 shadow-dark-lg;
+  }
+
+  .dark-gradient-button {
+    @apply bg-gradient-to-r from-purple-700 rounded- to-indigo-700 text-white border border-gray-700 hover:border-purple-500/30;
+  }
+
+  .dark-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-300;
+  }
+}

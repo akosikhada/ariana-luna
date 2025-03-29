@@ -1,7 +1,7 @@
 # 💖 Romantic Date Planner
 
 <div align="center">
-  <img src="./public/ariana-luna.jpg" width="200" style="border-radius: 1.5rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
+  <img src="./public/logo.svg" width="400" style="border-radius: 1.5rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
 
   <p align="center">
     <em>A heartfelt application designed to create the perfect date with someone special</em>
@@ -27,6 +27,7 @@ The application guides users through a series of personalized questions about da
 - **Interactive Questions**: Beautiful animated interface for selecting date preferences
 - **Step-by-Step Planning**: Guides through various aspects of the date (activities, time, food, etc.)
 - **Romantic UI**: Elegant dark theme with soft purple and pink highlights
+- **Custom SVG Logo**: Beautiful calendar and heart-based logo that captures the essence of the application
 - **Summary Creation**: Generates a beautiful summary of the date plan
 - **Downloadable Memories**: Save the date plan as an image to share or remember
 

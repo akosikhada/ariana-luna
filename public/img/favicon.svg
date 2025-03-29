@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="512" height="512" rx="128" fill="url(#paint0_radial)" />
+  
+  <!-- Main heart -->
+  <g filter="url(#filter0_d)">
+    <path d="M256 356C256 356 305 315 326 297C347 279 362 254 362 236C362 201 335 180 304 180C283 180 268 191 256 215C244 191 229 180 208 180C177 180 150 201 150 236C150 254 165 279 186 297C207 315 256 356 256 356Z" fill="url(#paint1_linear)" />
+    <path d="M256 356C256 356 305 315 326 297C347 279 362 254 362 236C362 201 335 180 304 180C283 180 268 191 256 215C244 191 229 180 208 180C177 180 150 201 150 236C150 254 165 279 186 297C207 315 256 356 256 356Z" fill="url(#paint2_radial)" fill-opacity="0.6" />
+  </g>
+  
+  <!-- Sparkles -->
+  <circle cx="175" cy="208" r="3" fill="white" />
+  <circle cx="345" cy="240" r="2" fill="white" />
+  <circle cx="315" cy="190" r="2" fill="white" />
+  <circle cx="205" cy="355" r="2" fill="white" />
+  <circle cx="320" cy="355" r="3" fill="white" />
+  <circle cx="185" cy="240" r="2" fill="white" />
+  
+  <defs>
+    <!-- Shadow for the heart -->
+    <filter id="filter0_d" x="140" y="174" width="232" height="194" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.929 0 0 0 0 0.282 0 0 0 0 0.600 0 0 0 0.5 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    
+    <!-- Background gradient -->
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(300)">
+      <stop offset="0" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#0F0D28"/>
+    </radialGradient>
+    
+    <!-- Heart gradient -->
+    <linearGradient id="paint1_linear" x1="150" y1="180" x2="362" y2="356" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    
+    <!-- Heart radial glow -->
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 260) rotate(-90) scale(100)">
+      <stop offset="0" stop-color="white" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg> 

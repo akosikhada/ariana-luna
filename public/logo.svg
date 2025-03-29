@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft glowing background -->
+  <rect width="800" height="600" rx="30" fill="url(#paint0_radial)" />
+  
+  <!-- Calendar base -->
+  <g filter="url(#filter0_d)">
+    <rect x="250" y="150" width="300" height="300" rx="20" fill="#1E1B4B" stroke="url(#paint1_linear)" stroke-width="4"/>
+    
+    <!-- Calendar header -->
+    <rect x="250" y="150" width="300" height="60" rx="20" fill="url(#paint2_linear)" />
+    <path d="M250 190C250 168.909 266.909 150 288 150H512C533.091 150 550 168.909 550 190V210H250V190Z" fill="url(#paint3_linear)" />
+    
+    <!-- Calendar grid lines -->
+    <line x1="300" y1="210" x2="300" y2="450" stroke="#9EA3BA" stroke-opacity="0.2" />
+    <line x1="350" y1="210" x2="350" y2="450" stroke="#9EA3BA" stroke-opacity="0.2" />
+    <line x1="400" y1="210" x2="400" y2="450" stroke="#9EA3BA" stroke-opacity="0.2" />
+    <line x1="450" y1="210" x2="450" y2="450" stroke="#9EA3BA" stroke-opacity="0.2" />
+    <line x1="500" y1="210" x2="500" y2="450" stroke="#9EA3BA" stroke-opacity="0.2" />
+    
+    <line x1="250" y1="260" x2="550" y2="260" stroke="#9EA3BA" stroke-opacity="0.2" />
+    <line x1="250" y1="310" x2="550" y2="310" stroke="#9EA3BA" stroke-opacity="0.2" />
+    <line x1="250" y1="360" x2="550" y2="360" stroke="#9EA3BA" stroke-opacity="0.2" />
+    <line x1="250" y1="410" x2="550" y2="410" stroke="#9EA3BA" stroke-opacity="0.2" />
+  </g>
+  
+  <!-- Calendar entries represented by circles -->
+  <circle cx="325" cy="285" r="15" fill="#EC4899" fill-opacity="0.6" />
+  <circle cx="375" cy="335" r="15" fill="#8B5CF6" fill-opacity="0.6" />
+  <circle cx="425" cy="385" r="15" fill="#EC4899" fill-opacity="0.6" />
+  <circle cx="475" cy="335" r="15" fill="#8B5CF6" fill-opacity="0.6" />
+  
+  <!-- Special date with heart -->
+  <g filter="url(#filter1_d)">
+    <circle cx="375" cy="385" r="25" fill="url(#paint4_radial)" />
+    <!-- Heart inside the special date -->
+    <path d="M375 395C375 395 385 388 390 384C395 380 398 374 398 370C398 362 393 356 386 356C382 356 378 358 375 364C372 358 368 356 364 356C357 356 352 362 352 370C352 374 355 380 360 384C365 388 375 395 375 395Z" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Left floating heart -->
+  <g filter="url(#filter2_d)">
+    <path d="M180 300C180 300 210 273 223 262C236 251 245 235 245 223C245 201 228 187 209 187C196 187 187 194 180 210C173 194 164 187 151 187C132 187 115 201 115 223C115 235 124 251 137 262C150 273 180 300 180 300Z" fill="url(#paint5_linear)" />
+  </g>
+  
+  <!-- Right floating heart -->
+  <g filter="url(#filter3_d)">
+    <path d="M620 300C620 300 650 273 663 262C676 251 685 235 685 223C685 201 668 187 649 187C636 187 627 194 620 210C613 194 604 187 591 187C572 187 555 201 555 223C555 235 564 251 577 262C590 273 620 300 620 300Z" fill="url(#paint6_linear)" />
+  </g>
+  
+  <!-- Sparkles -->
+  <circle cx="200" cy="180" r="3" fill="white" />
+  <circle cx="600" cy="200" r="4" fill="white" />
+  <circle cx="220" cy="400" r="3" fill="white" />
+  <circle cx="580" cy="420" r="3" fill="white" />
+  <circle cx="300" cy="120" r="2" fill="white" />
+  <circle cx="500" cy="120" r="2" fill="white" />
+  
+  <!-- Star burst for special effect -->
+  <path d="M400 100L404 112L416 112L406 120L410 132L400 124L390 132L394 120L384 112L396 112L400 100Z" fill="white" />
+  
+  <!-- Title text -->
+  <g filter="url(#filter4_d)">
+    <text x="400" y="500" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="48" fill="url(#paint7_linear)">Date Planner</text>
+  </g>
+  
+  <!-- Subtitle -->
+  <text x="400" y="540" text-anchor="middle" font-family="Arial" font-style="italic" font-size="24" fill="white" fill-opacity="0.8">Our Special Moments</text>
+  
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 300) rotate(90) scale(400 500)">
+      <stop offset="0" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#0F0D28"/>
+    </radialGradient>
+    
+    <!-- Calendar border gradient -->
+    <linearGradient id="paint1_linear" x1="250" y1="150" x2="550" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    
+    <!-- Calendar header gradient -->
+    <linearGradient id="paint2_linear" x1="250" y1="150" x2="550" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    
+    <!-- Calendar header top part gradient -->
+    <linearGradient id="paint3_linear" x1="250" y1="150" x2="550" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    
+    <!-- Special date background glow -->
+    <radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(375 385) rotate(90) scale(25)">
+      <stop offset="0" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </radialGradient>
+    
+    <!-- Left heart gradient -->
+    <linearGradient id="paint5_linear" x1="115" y1="187" x2="245" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    
+    <!-- Right heart gradient -->
+    <linearGradient id="paint6_linear" x1="555" y1="187" x2="685" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    
+    <!-- Title text gradient -->
+    <linearGradient id="paint7_linear" x1="250" y1="500" x2="550" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    
+    <!-- Filters for shadows and glows -->
+    <filter id="filter0_d" x="245" y="147" width="310" height="310" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="2"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.929 0 0 0 0 0.282 0 0 0 0 0.600 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    
+    <filter id="filter1_d" x="345" y="351" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="3"/>
+      <feGaussianBlur stdDeviation="2.5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.929 0 0 0 0 0.282 0 0 0 0 0.600 0 0 0 0.5 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    
+    <filter id="filter2_d" x="105" y="182" width="150" height="133" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="5"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.929 0 0 0 0 0.282 0 0 0 0 0.600 0 0 0 0.4 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    
+    <filter id="filter3_d" x="545" y="182" width="150" height="133" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="5"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.545 0 0 0 0 0.361 0 0 0 0 0.965 0 0 0 0.4 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    
+    <filter id="filter4_d" x="215" y="465" width="370" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.929 0 0 0 0 0.282 0 0 0 0 0.600 0 0 0 0.6 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg> 
